@@ -5,6 +5,10 @@
   "description": "MCP tools for searching Autodesk Help and Support docs and listing supported products.",
   "version": "1.0.12",
   "websiteUrl": "https://help.autodesk.com/view/ADSKMCP/ENU/?guid=ADSKMCP_KnowledgeMcp_autodesk_product_help_mcp_server_html",
+  "repository": {
+    "url": "https://github.com/Autodesk/product-help-mcp-server",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
