@@ -1,0 +1,12 @@
+# Key material — never commit. See the publishing runbook.
+private-key.hex
+*.pem
+*.key
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store

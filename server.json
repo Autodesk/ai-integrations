@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.autodesk.aps.api/knowledge-mcp",
+  "title": "Autodesk Product Help MCP",
+  "description": "MCP tools for searching Autodesk Help and Support docs and listing supported products.",
+  "version": "1.0.12",
+  "websiteUrl": "https://help.autodesk.com/view/ADSKMCP/ENU/?guid=ADSKMCP_KnowledgeMcp_autodesk_product_help_mcp_server_html",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.aps.autodesk.com/knowledge/public/v1/mcp"
+    }
+  ]
+}
