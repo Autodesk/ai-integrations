@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "com.autodesk.aps.api/knowledge-mcp",
+  "name": "com.autodesk.aps.api/product-help-mcp",
   "title": "Autodesk Product Help MCP",
-  "description": "MCP tools for searching Autodesk Help and Support docs and listing supported products.",
+  "description": "Read official Autodesk documentation for 110+ products. No key required.",
   "version": "1.0.12",
   "websiteUrl": "https://help.autodesk.com/view/ADSKMCP/ENU/?guid=ADSKMCP_KnowledgeMcp_autodesk_product_help_mcp_server_html",
   "repository": {
