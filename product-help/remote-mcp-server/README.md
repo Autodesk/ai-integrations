@@ -39,7 +39,7 @@ Autodesk® Product Help is a Model Context Protocol (MCP) Server that connects A
 The world's designers, engineers, builders, and creators trust Autodesk to help them design and make anything. From the buildings we live and work in, to the cars we drive and the bridges we drive over. From the products we use and rely on, to the movies and games that inspire us. Autodesk's Design and Make Platform unlocks the power of data to accelerate insights and automate processes, empowering our customers with the technology to create the world around us and deliver better outcomes for their business and the planet. For more information, visit [autodesk.com](https://www.autodesk.com).
 
 > [!IMPORTANT]
-> Autodesk hosts and operates this service, so there is nothing to install or run locally. This repository contains the [MCP Registry](https://registry.modelcontextprotocol.io/) metadata ([`server.json`](./server.json)) and setup documentation.
+> Autodesk hosts and operates this service, so there is nothing to install or run locally. This folder of the [ai-integrations](https://github.com/Autodesk/ai-integrations) repository contains the [MCP Registry](https://registry.modelcontextprotocol.io/) metadata ([`server.json`](./server.json)) and setup documentation.
 
 ## Example prompts
 
@@ -198,7 +198,7 @@ Paste this into your AI coding agent:
 
 ```text
 Add the Autodesk Product Help MCP server to this environment.
-Use the setup documentation at https://github.com/Autodesk/product-help-mcp-server
+Use the setup documentation at https://github.com/Autodesk/ai-integrations/tree/main/product-help/remote-mcp-server
 and the endpoint https://api.aps.autodesk.com/knowledge/public/v1/mcp
 (Streamable HTTP, no authentication). Verify the connection with initialize and tools/list.
 ```
@@ -294,7 +294,7 @@ When a tool call fails, the HTTP request still succeeds. The tool result has `is
 | `INVALID_RELEASE_CODE` | The release is not available for the chosen product. The error message lists the valid release codes. |
 | `RELEASE_CODE_REQUIRES_PRODUCT` | `release_code` was sent without `product_code` or `product_name`. Add a product, or remove the release filter. |
 | `INVALID_PRODUCT_SCOPE` | `product_code` and `product_name` refer to different products. Send only `product_code`. |
-| `INTERNAL_ERROR` | The call could not be completed. First check that the tool name matches `tools/list` exactly, because an unknown tool name also returns this code. Otherwise it is a temporary server-side problem: retry later, and [open an issue](https://github.com/Autodesk/product-help-mcp-server/issues) if it persists. |
+| `INTERNAL_ERROR` | The call could not be completed. First check that the tool name matches `tools/list` exactly, because an unknown tool name also returns this code. Otherwise it is a temporary server-side problem: retry later, and [open an issue](https://github.com/Autodesk/ai-integrations/issues) if it persists. |
 
 ### No results
 
@@ -302,7 +302,7 @@ If `search_help_content` returns `total_results: 0`, remove the `release_code`, 
 
 ### Reporting a problem
 
-Send an `x-request-id` header with a new UUID on each request. The server returns the same value in its response. Include that value when you [open an issue](https://github.com/Autodesk/product-help-mcp-server/issues) so the request can be traced.
+Send an `x-request-id` header with a new UUID on each request. The server returns the same value in its response. Include that value when you [open an issue](https://github.com/Autodesk/ai-integrations/issues) so the request can be traced.
 
 ## Security and data handling
 
@@ -313,10 +313,10 @@ Send an `x-request-id` header with a new UUID on each request. The server return
 
 ## About this repository
 
-This repository is the official distribution point for Autodesk Product Help MCP.
+The [ai-integrations](https://github.com/Autodesk/ai-integrations) repository is the official distribution point for Autodesk AI integrations. This folder, `product-help/remote-mcp-server`, holds the Autodesk Product Help MCP files.
 
 ```text
-.
+product-help/remote-mcp-server/
 ├── server.json   # MCP Registry metadata
 ├── README.md     # Setup and usage documentation
 └── LICENSE.md
@@ -335,11 +335,11 @@ Contributions to the documentation and client setup examples are welcome.
 1. Fork the repository and create a branch for your change.
 2. Open a pull request that describes the change and how you tested it, for example with the `curl` check above.
 
-The hosted service is not built from this repository. For feature requests or problems with the service itself, [open an issue](https://github.com/Autodesk/product-help-mcp-server/issues).
+The hosted service is not built from this repository. For feature requests or problems with the service itself, [open an issue](https://github.com/Autodesk/ai-integrations/issues).
 
 ## Support
 
-- **Setup, registry metadata, or this documentation:** [open an issue](https://github.com/Autodesk/product-help-mcp-server/issues).
+- **Setup, registry metadata, or this documentation:** [open an issue](https://github.com/Autodesk/ai-integrations/issues).
 - **Questions about Autodesk products:** visit the [Autodesk Community forums](https://forums.autodesk.com).
 
 ## License and terms
