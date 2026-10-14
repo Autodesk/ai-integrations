@@ -6,8 +6,9 @@
   "version": "1.0.12",
   "websiteUrl": "https://help.autodesk.com/view/ADSKMCP/ENU/?guid=ADSKMCP_KnowledgeMcp_autodesk_product_help_mcp_server_html",
   "repository": {
-    "url": "https://github.com/Autodesk/product-help-mcp-server",
-    "source": "github"
+    "url": "https://github.com/Autodesk/ai-integrations",
+    "source": "github",
+    "subfolder": "product-help/remote-mcp-server"
   },
   "remotes": [
     {
