@@ -1,0 +1,8 @@
+node_modules/
+*.mcpb
+dist/
+.DS_Store
+.env
+.env.*
+.claude/
+!release/**/*.mcpb

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.autodesk.aps.api/fusion",
+  "title": "Autodesk Fusion",
+  "description": "Create, modify, and inspect 3D geometry in Autodesk Fusion. Must locally run Fusion.",
+  "version": "1.0.1",
+  "websiteUrl": "https://www.autodesk.com/products/fusion-360",
+  "repository": {
+    "url": "https://github.com/Autodesk/ai-integrations",
+    "source": "github",
+    "subfolder": "fusion/local-mcp-server"
+  },
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/Autodesk/ai-integrations/releases/download/v1.0.1/fusion_mcpb.mcpb",
+      "fileSha256": "7188f050c92af873748d66b230838171de13763245957545e67ee53e1b277bbf",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
