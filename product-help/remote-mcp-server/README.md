@@ -28,7 +28,7 @@ Autodesk® Product Help is a Model Context Protocol (MCP) Server that connects A
 - Ask support questions using natural language.
 - Learn and onboard to Autodesk products faster.
 - Create a foundation for AI agents and automation.
-- Available in 10 languages: English (United States), French (France), German (Germany), Spanish (Spain), Portuguese (Brazil), Italian (Italy), Japanese (Japan), Korean (Korea), Chinese (Simplified), and Russian (Russia)
+- Available in 10 languages and 40 locales.
 
 **Requirements:**
 
@@ -346,4 +346,4 @@ The hosted service is not built from this repository. For feature requests or pr
 
 [`LICENSE.md`](./LICENSE.md) covers the files in this repository only. It does not cover the hosted service or the Autodesk content that the service returns.
 
-Use of the Autodesk Product Help MCP service is subject to the Autodesk [Terms of Use](https://www.autodesk.com/company/terms-of-use/en/general-terms) and [Privacy Statement](https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement).
+Use of the Autodesk Product Help MCP server is subject to the Autodesk [Terms of Use](https://www.autodesk.com/company/terms-of-use/en/general-terms) and [Privacy Statement](https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement).
