@@ -14,7 +14,7 @@
     {
       "registryType": "mcpb",
       "identifier": "https://github.com/Autodesk/ai-integrations/releases/download/v1.0.1/fusion_mcpb.mcpb",
-      "fileSha256": "7188f050c92af873748d66b230838171de13763245957545e67ee53e1b277bbf",
+      "fileSha256": "f42e313324ca5f73bfddcc8548e44d9ee399f1cb4c24ed87600d907387eb8d6b",
       "transport": { "type": "stdio" }
     }
   ]
