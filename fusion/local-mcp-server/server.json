@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "com.autodesk.aps.api/fusion",
+  "name": "com.autodesk.aps.api/fusion-local-mcp",
   "title": "Autodesk Fusion",
   "description": "Create, modify, and inspect 3D geometry in Autodesk Fusion. Must locally run Fusion.",
   "version": "1.0.1",
