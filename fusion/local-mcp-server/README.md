@@ -3,7 +3,7 @@
 MCP server for [Autodesk Fusion](https://www.autodesk.com/products/fusion-360/overview): create, modify and
 inspect CAD geometry in a running Fusion session from any MCP client.
 
-Registry name: `com.autodesk.aps.api/fusion`
+Registry name: `com.autodesk.aps.api/fusion-local-mcp`
 
 ## How it works
 

@@ -11,7 +11,7 @@ Each integration lives in its own folder with its own README, license, and relea
 | Integration | Type | Folder | Registry name |
 |---|---|---|---|
 | Autodesk Product Help MCP | Hosted (remote), Streamable HTTP | [`product-help/remote-mcp-server`](./product-help/remote-mcp-server) | `com.autodesk.aps.api/product-help-mcp` |
-| Autodesk Fusion MCP | Local, runs on your machine alongside Fusion | [`fusion/local-mcp-server`](./fusion/local-mcp-server) | `com.autodesk.aps.api/fusion` |
+| Autodesk Fusion MCP | Local, runs on your machine alongside Fusion | [`fusion/local-mcp-server`](./fusion/local-mcp-server) | `com.autodesk.aps.api/fusion-local-mcp` |
 
 - **Product Help** gives AI clients read-only access to Autodesk Help and Support documentation. Autodesk
   hosts the service, so there is nothing to install.
