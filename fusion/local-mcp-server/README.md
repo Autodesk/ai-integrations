@@ -65,4 +65,4 @@ for more.
 
 ## License
 
-[LICENSE](./LICENSE) covers files under this directory. It does not cover Autodesk Fusion, the Fusion MCP server built into it, or any content or data that Fusion returns through it. Use of Autodesk Fusion and Autodesk Fusion MCP server is subject to Autodesk's [Terms of Use](https://www.autodesk.com/company/terms-of-use/en/general-terms) and [Privacy Statement](https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement).
+[LICENSE](./LICENSE) covers files under this directory. It does not cover Autodesk Fusion, the Fusion MCP server built into it, or any content or data that Fusion returns through it. Use of Autodesk Fusion and the Autodesk Fusion MCP server is subject to Autodesk's [Terms of Use](https://www.autodesk.com/company/terms-of-use/en/general-terms) and [Privacy Statement](https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement).
